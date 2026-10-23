@@ -1,0 +1,144 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fresh fruit</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <header>
+        <p>Happiness store - Tươi ngon mỗi ngày, trọn vị thiên nhiên</p>
+        <nav class="header__nav">
+            <ul type="none" class="header__menu--content">
+                <li><a href="#">TRANG CHỦ</a></li>
+                <li><a href="#">TRÁI CÂY</a></li>
+                <li><a href="">RAU CỦ</a></li>
+                <li><a href="">HẠT</a></li>
+            </ul>
+        </nav>
+        <form action="#" class="header__search">
+            <label for="search"><i class="fa-solid fa-magnifying-glass"></i></label>
+            <input type="text">
+        </form>
+        <a href="#"><i class="fa-solid fa-phone-volume"></i></a>
+        <a href="#"><i class="fa-solid fa-circle-user"></i></a>
+    </header>
+
+    <main>
+        <div class="swap">
+            <img style="width: 1000px;" class="main__img--poster1" src="pictures/poster1.png" alt="Poster1">
+            <img style="width: 1000px;"  class="main__img--poster2" src="pictures/poster.jpg" alt="Poster1">
+        </div>
+        
+        <!-- mỗi 1 section là 1 chủ đề về trái cây -->
+        <section class="traicayvietnam">
+            <p>TRÁI CÂY VIỆT NAM</p>
+            <!-- bao bọc toàn bộ phần tử con trong section -->
+            <div class="traicayvietnam__contents">
+
+                <!-- đây là SẢN PHẨM E1 của chủ đề trái cây VN:
+                  -phần tổng quát là phần khi vào trang web là thấy như bth
+                  -phần chi tiết có nút mua hàng thì cần ấn vào ảnh ở phần tổng quát để xem-->
+                <div class="traicayvietnam__contents__e1">
+                    <div class="traicayvietnam__contents__e1--tongquat">
+                        <img class="traicayvietnam__contents__e1--tongquat-anh" src="pictures/tao.png" alt="e1">
+                        <p class="traicayvietnam__contents__e1--tongquat-caption">Táo xanh Mỹ</p>
+                        <p class="traicayvietnam__contents__e1--tongquat-gia"><b>195,000đ</b></p>
+                    </div>
+                    <div class="traicayvietnam__contents__e1--chitiet">
+                        <img class="traicayvietnam__contents__e1--chitiet-anh" src="pictures/tao.png" alt="e1">
+                        <div class="traicayvietnam__contents__e1--chitiet--block">
+                            <p class="traicayvietnam__contents__e1--chitiet--block-caption">Táo xanh Mỹ</p>
+                            <p class="traicayvietnam__contents__e1--chitiet--block-mota">Xuất xứ: Mỹ<br>Tiêu chuẩn chất lượng: 
+                                Nhập khẩu chính ngạch<br> Táo xanh Mỹ là một trong những loại trái cây nhập khẩu được ưa 
+                                chuộng tại Việt Nam nhờ vị chua thanh đặc trưng, độ giòn cao và giá trị dinh dưỡng vượt trội. 
+                                Không chỉ dễ ăn, dễ kết hợp món, loại táo này còn phù hợp với nhiều chế độ ăn uống lành mạnh hiện nay.</p>
+                            <p class="traicayvietnam__contents__e1--chitiet--block-gia"><b>195,000đ</b></p>
+                            <a href="#">MUA NGAY</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- CÁC SẢN PHẨM E2, 3, 4, ... copy paste từ E1 -->
+            </div>
+        </section>
+        
+        <section class="main__traicaynhapkhau">
+            <p>TRÁI CÂY NHẬP KHẨU</p>
+            <div class="traicaynhapkhau__contents">
+                <div class="traicaynhapkhau__contents__e1">
+                    <div class="traicaynhapkhau__contents__e1--tongquat">
+                        <img class="traicaynhapkhau__contents__e1--tongquat-anh" src="pictures/tao.png" alt="e1">
+                        <p class="traicaynhapkhau__contents__e1--tongquat-caption">Táo xanh Mỹ</p>
+                        <p class="traicaynhapkhau__contents__e1--tongquat-gia"><b>195,000đ</b></p>
+                    </div>
+                    <div class="traicaynhapkhau__contents__e1--chitiet">
+                        <img class="traicaynhapkhau__contents__e1--chitiet-anh" src="pictures/tao.png" alt="e1">
+                        <div class="traicaynhapkhau__contents__e1--chitiet--block">
+                            <p class="traicaynhapkhau__contents__e1--chitiet--block-caption">Táo xanh Mỹ</p>
+                            <p class="traicaynhapkhau__contents__e1--chitiet--block-mota">Xuất xứ: Mỹ<br>Tiêu chuẩn chất lượng: 
+                                Nhập khẩu chính ngạch<br> Táo xanh Mỹ là một trong những loại trái cây nhập khẩu được ưa 
+                                chuộng tại Việt Nam nhờ vị chua thanh đặc trưng, độ giòn cao và giá trị dinh dưỡng vượt trội. 
+                                Không chỉ dễ ăn, dễ kết hợp món, loại táo này còn phù hợp với nhiều chế độ ăn uống lành mạnh hiện nay.</p>
+                            <p class="traicaynhapkhau__contents__e1--chitiet--block-gia"><b>195,000đ</b></p>
+                            <a href="#">MUA NGAY</a>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+        <section class="main__gioqua">
+            <p>GIỎ QUÀ</p>
+            <div class="gioqua__contents">
+                <div class="gioqua__contents__e1">
+                    <div class="gioqua__contents__e1--tongquat">
+                        <img class="gioqua__contents__e1--tongquat-anh" src="pictures/tao.png" alt="e1">
+                        <p class="gioqua__contents__e1--tongquat-caption">Táo xanh Mỹ</p>
+                        <p class="gioqua__contents__e1--tongquat-gia"><b>195,000đ</b></p>
+                    </div>
+                    <div class="gioqua__contents__e1--chitiet">
+                        <img class="gioqua__contents__e1--chitiet-anh" src="pictures/tao.png" alt="e1">
+                        <div class="gioqua__contents__e1--chitiet--block">
+                            <p class="gioqua__contents__e1--chitiet--block-caption">Táo xanh Mỹ</p>
+                            <p class="gioqua__contents__e1--chitiet--block-mota">Xuất xứ: Mỹ<br>Tiêu chuẩn chất lượng: 
+                                Nhập khẩu chính ngạch<br> Táo xanh Mỹ là một trong những loại trái cây nhập khẩu được ưa 
+                                chuộng tại Việt Nam nhờ vị chua thanh đặc trưng, độ giòn cao và giá trị dinh dưỡng vượt trội. 
+                                Không chỉ dễ ăn, dễ kết hợp món, loại táo này còn phù hợp với nhiều chế độ ăn uống lành mạnh hiện nay.</p>
+                            <p class="gioqua__contents__e1--chitiet--block-gia"><b>195,000đ</b></p>
+                            <a href="#">MUA NGAY</a>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="footer__gioithieu">
+            <h3>Về happiness Store</h3>
+            <p>happiness Store là thương hiệu uy tín chất lượng cao với đa dạng
+                sản phẩm phục vụ mọi nhu cầu: trái cây nhập khẩu, quà tặng trái cây và nông sản
+                tươi từ nhà vườn.
+            </p>
+        </div>
+        <div class="footer__diachi">
+            <h3>Địa chỉ</h3>
+            <ul class="footer__diachi__chinhanh">
+                <li><b>Chi nhánh 1: </b>183 Nguyễn Thái Học, phường Bến Thành</li>
+                <li><b>Chi nhánh 2: </b>42B Trần Huy Liệu, phường Phú Nhuận</li>
+                <li><b>Chi nhánh 3: </b>3/2 Xuân Khánh, phường Ninh Kiều</li>
+            </ul>
+        </div>
+        <div class="footer__cskh">
+            <h3>Chăm sóc khách hàng</h3>
+            <ul>
+                <li><b>Email: </b>abc@gmail.com</li>
+                <li><b>Điện thoại: </b>0988263788</li>
+            </ul>
+            <p>Chúng tôi luôn trong tin thần sẳn sàng hổ trợ và giải đáp về các dịch vụ như chính sách bảo hành, 
+                gói cước thành viên, chính sách đổi trả, ...Cũng như nghe những đóng góp từ các bạn để hoàn thiện
+                 hơn.</p>
+        </div>
+    </footer>
+</body>
+</html>
