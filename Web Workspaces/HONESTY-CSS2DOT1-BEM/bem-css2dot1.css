@@ -1,0 +1,157 @@
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+html{
+  font-family: 'Times New Roman', Times, serif;
+}
+body{
+  width: 95%;
+  margin: 0 auto;
+  min-width: 1500px;
+  background-color: rgba(245, 230, 237, 0.8);
+}
+header, main, footer{
+  border: 5px solid blue;
+  overflow: hidden;
+  margin: 10px auto;
+}
+header{
+  background-color: black;
+}
+.header__img--logo{
+  border: 3px solid green;
+  border-radius: 50%;
+  float: left;
+  margin: 20px 15px;
+  width: 3%;
+  vertical-align: middle;
+}
+.header-nav-form{
+  border: 3px solid green;
+  float: right;
+  width: 90%;
+  margin-top: 32px;
+  margin-right: 20px;
+}
+.horizontal-nav{
+  border: 1px dashed red;
+  width: 80%;
+  float: left;
+  text-align: center;
+
+}
+.form-search{
+  width: 20%;
+  float: right;
+  border: 1px dashed red;
+  padding: 13px;
+}
+.form-search__button, .form-search__input{
+  vertical-align: middle;
+  height: 20px;
+}
+.horizontal-nav a{
+  font-size: 20px;
+  color: yellow;
+  background-color: gray;
+  border-radius: 10%;
+  padding: 12px 50px;
+  display:inline-block;
+  text-decoration: none;
+  transition: 0.3s ease-in-out;
+}
+.horizontal-nav a:hover{
+  background-color: rgb(80, 153, 119);
+  font-weight: bold;
+}
+
+.swap-banner{
+  position: relative;
+  border: 1px dashed red;
+  margin-top: 10px;
+}
+.swap-banner>img{
+  width: 100%;
+}
+.swap-banner__photo1{
+  position: absolute;
+  top: 0px;
+  transition: 1s ease-in-out;
+}
+.swap-banner__photo1:hover{
+  opacity: 0;
+}
+article{
+  float: left;
+  width: 70%;
+  border: 2px dashed blue;
+}
+.sidebar{
+  float: right;
+  width: 30%;
+  border: 2px dashed blue;
+}
+h1{
+  text-align:center;
+  color: blue;
+  margin: 20px auto;
+  text-shadow: 2px 2px 5px rgb(22, 4, 4);
+}
+.main__photo{
+  width: 60%;
+  float: right;
+  margin: 0px 20px 20px 20px;
+}
+section>p{
+  text-align:justify;
+  margin-left: 20px;
+}
+.mainred{
+  color: red;
+}
+.list{
+  background-color:aliceblue;
+  margin-left: 20px;
+  line-height: 1.8;
+}
+.idiom{
+  margin: 20px 0px 20px 20px;
+  clear: both;
+  
+}
+h2{
+  padding: 20px 10px;
+}
+.sidebar{
+  border: 2px dashed blue;
+}
+.chon{
+  text-align: justify;
+  margin: 0px 10px 20px 10px;
+}
+ul{
+  list-style-type: "✧ ";
+}
+ul li{
+  background-color: rgb(186, 215, 240);
+  margin-bottom: 8px;
+}
+.sidebar__title--tertiary{
+  margin: 30px 0px 30px 15px;
+}
+.end{
+  margin: 0px 0px 5px 10px;
+}
+aside{
+  margin: 0px 10px 20px 10px;
+}
+.page-footer {
+  background: url('images/banner-footer.jpg') center;
+  padding: 25px;
+  text-align: center;
+  font-weight: bold;
+}
+
+

@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Không gian học thuật khám phá ca dao, tục ngữ Việt Nam qua văn bản, chủ đề và những lớp nghĩa văn hóa."
+    />
+    <meta name="theme-color" content="#f7f5ef" />
+    <title>Thư viện Dân gian — Ca dao &amp; Tục ngữ Việt Nam</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#noi-dung">Bỏ qua điều hướng</a>
+    <header class="site-header">
+      <a class="brand" href="#" aria-label="Thư viện Dân gian, về đầu trang">
+        <span class="brand-mark" aria-hidden="true">✳</span>
+        <span>Thư viện <strong>Dân gian</strong></span>
+      </a>
+      <nav class="main-nav" aria-label="Điều hướng chính">
+        <a href="#kho-tang">Kho tàng</a>
+        <a href="#chu-de">Chủ đề</a>
+        <a href="#gioi-thieu">Giới thiệu</a>
+      </nav>
+      <a class="header-cta" href="#kho-tang">Khám phá <span aria-hidden="true">↗</span></a>
+    </header>
+
+    <main id="noi-dung">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="eyebrow-line"></span> Di sản văn học truyền miệng</p>
+          <h1 id="hero-title">Lời xưa còn vọng,<br /><em>nghĩa nay vẫn đầy.</em></h1>
+          <p class="hero-description">
+            Một không gian đọc và tìm hiểu ca dao, tục ngữ Việt Nam — nơi mỗi lời
+            ăn tiếng nói mở ra một lát cắt về con người và văn hóa.
+          </p>
+          <a class="button button-dark" href="#kho-tang">Bước vào kho tàng <span aria-hidden="true">↓</span></a>
+          <div class="hero-note">
+            <span class="note-rule"></span>
+            <span>Gìn giữ lời hay · Khơi mở tri thức</span>
+          </div>
+        </div>
+
+        <div class="hero-art" aria-label="Tranh minh họa cánh đồng lúa và dòng sông">
+          <div class="art-sun"></div>
+          <div class="art-hill art-hill-back"></div>
+          <div class="art-hill art-hill-front"></div>
+          <div class="art-river"></div>
+          <div class="art-grass grass-one"></div>
+          <div class="art-grass grass-two"></div>
+          <div class="art-caption">
+            <span class="caption-number">01 / 04</span>
+            <span>Đất nước — quê hương</span>
+          </div>
+          <span class="art-quote">“Ta về ta tắm ao ta,<br />dù trong dù đục ao nhà vẫn hơn.”</span>
+        </div>
+        <div class="hero-index" aria-hidden="true">VĂN HỌC DÂN GIAN&nbsp; / &nbsp;01</div>
+      </section>
+
+      <section class="collection section-wrap" id="kho-tang" aria-labelledby="collection-title">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow"><span class="eyebrow-line"></span> Tuyển chọn</p>
+            <h2 id="collection-title">Mở trang ký ức</h2>
+          </div>
+          <p class="section-intro">Từ lời ru, câu hát đến kinh nghiệm sống được chắt lọc qua bao thế hệ.</p>
+        </div>
+
+        <div class="collection-tools">
+          <label class="search-box" for="search-input">
+            <svg aria-hidden="true" viewBox="0 0 24 24"><circle cx="11" cy="11" r="6.5"></circle><path d="m16 16 4 4"></path></svg>
+            <input id="search-input" type="search" placeholder="Tìm câu ca dao, tục ngữ..." autocomplete="off" />
+            <kbd>/</kbd>
+          </label>
+          <span class="result-count" id="result-count" aria-live="polite"></span>
+        </div>
+
+        <div class="filter-list" id="chu-de" role="group" aria-label="Lọc theo chủ đề">
+          <button class="filter-chip is-active" type="button" data-category="Tất cả" aria-pressed="true">Tất cả</button>
+          <button class="filter-chip" type="button" data-category="Quê hương" aria-pressed="false">Quê hương</button>
+          <button class="filter-chip" type="button" data-category="Gia đình" aria-pressed="false">Gia đình</button>
+          <button class="filter-chip" type="button" data-category="Lao động" aria-pressed="false">Lao động</button>
+          <button class="filter-chip" type="button" data-category="Ứng xử" aria-pressed="false">Ứng xử</button>
+          <button class="filter-chip" type="button" data-category="Thiên nhiên" aria-pressed="false">Thiên nhiên</button>
+        </div>
+
+        <div class="quote-grid" id="quote-grid" aria-live="polite"></div>
+        <div class="empty-state" id="empty-state" hidden>
+          <span aria-hidden="true">⌕</span>
+          <h3>Chưa tìm thấy câu phù hợp</h3>
+          <p>Thử một từ khóa khác hoặc chọn “Tất cả” để xem lại kho tàng.</p>
+        </div>
+        <div class="collection-footer">
+          <span class="footer-ornament" aria-hidden="true">✳</span>
+          <p>Mỗi câu nói dân gian là một mảnh ghép của ký ức cộng đồng.</p>
+          <span class="footer-ornament" aria-hidden="true">✳</span>
+        </div>
+      </section>
+
+      <section class="about" id="gioi-thieu" aria-labelledby="about-title">
+        <div class="about-inner">
+          <div class="about-symbol" aria-hidden="true">
+            <span class="symbol-ring"></span>
+            <span class="symbol-flower">✳</span>
+            <span class="symbol-label">LỜI XƯA<br />Ý NAY</span>
+          </div>
+          <div class="about-copy">
+            <p class="eyebrow eyebrow-light"><span class="eyebrow-line"></span> Về thư viện</p>
+            <h2 id="about-title">Di sản sống trong<br /><em>từng lời bình dị.</em></h2>
+            <p>
+              Ca dao, tục ngữ là tri thức dân gian được trao truyền bằng lời nói,
+              gắn với đời sống và biến đổi theo vùng miền, thời gian. Thư viện này
+              khởi đầu như một nơi đọc có chú giải, khuyến khích tìm hiểu ngữ cảnh
+              thay vì xem mỗi câu như một chân lý bất biến.
+            </p>
+            <p class="about-source">Văn bản có thể có dị bản; phần giải nghĩa mang tính tham khảo.</p>
+          </div>
+          <div class="about-stat">
+            <span class="stat-number">01</span>
+            <span class="stat-caption">Không gian<br />đọc và khám phá</span>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <a class="brand footer-brand" href="#">
+        <span class="brand-mark" aria-hidden="true">✳</span>
+        <span>Thư viện <strong>Dân gian</strong></span>
+      </a>
+      <p>Một dự án học tập về văn học dân gian Việt Nam.</p>
+      <a class="back-to-top" href="#noi-dung">Lên đầu trang ↑</a>
+    </footer>
+
+    <dialog class="detail-dialog" id="detail-dialog" aria-labelledby="dialog-title">
+      <button class="dialog-close" type="button" aria-label="Đóng">×</button>
+      <p class="eyebrow"><span class="eyebrow-line"></span><span id="dialog-category"></span></p>
+      <p class="dialog-kind" id="dialog-kind"></p>
+      <h2 id="dialog-title"></h2>
+      <div class="dialog-divider"></div>
+      <h3>Gợi ý tìm hiểu</h3>
+      <p class="dialog-meaning" id="dialog-meaning"></p>
+      <p class="dialog-context" id="dialog-context"></p>
+      <p class="dialog-note">Lưu ý: cách diễn đạt và cách hiểu có thể khác nhau tùy ngữ cảnh, vùng miền.</p>
+    </dialog>
+  </body>
+</html>

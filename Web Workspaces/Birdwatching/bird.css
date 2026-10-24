@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&display=swap');
+
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+html{
+    font-family:Arial, Helvetica, sans-serif;
+}
+body{
+    width: 95%;
+    background-color: aqua;
+    margin: 0 auto;
+}
+header{
+    background-color:rgb(245, 198, 81);
+    padding-bottom: 1px;
+    margin-bottom: 10px;
+}
+header img{
+    float: right;
+    width: 50px;
+    display: block;
+}
+h1{
+    font-family: 'Cinzel Decorative';
+    font-weight: bold;
+    text-shadow: 4px 4px 4px rgb(19, 64, 211);
+    text-align: center;
+    padding: 30px 0;
+}
+nav{
+    width: 98%;
+    background-color: yellow;
+    margin: 0px auto 10px auto;
+    overflow: hidden;
+    
+}
+nav a{
+    width: 20%;
+    border: 0px;
+    float: left;
+    text-decoration: none;
+    padding: 15px 0;
+    text-align: center;
+    font-weight:bold;
+}
+main{
+    display: flex;
+    background-color:rgb(245, 198, 81);
+    overflow: hidden;
+}
+article{
+    float: left;
+    width: 69%;
+    background-color: yellow;
+    margin: 1%;
+}
+aside{
+    float: right;
+    width: 28%;
+    background-color: yellow;
+    margin: 1% 1% 1% 0;
+    padding: 0 2% 2% 2%;
+}
+h3{
+    text-align: center;
+    font-family: 'Cinzel Decorative';
+    padding: 20px;
+}
+.anh {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4px;
+    width: 96%;
+}
+.anh img {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    display: block;
+}
+footer{
+    background-color: rgb(245, 198, 81);
+    margin-top: 10px;
+    padding: 1%;
+}
+.lass{
+    background-color: yellow;
+    
+}

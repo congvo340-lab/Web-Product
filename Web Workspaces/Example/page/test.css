@@ -1,0 +1,19 @@
+b{
+    color: blue;
+}
+h1{
+    color:rgb(214, 132, 25);
+    background-image:url('../picture/hoa.jpg');
+    opacity: 0.5;
+    
+}
+p{
+    opacity: 0;
+    width:autos;
+    height: auto;
+    padding: 50px;
+    border: 20px solid skyblue;
+}
+p:hover{
+    opacity: 1;
+}

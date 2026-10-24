@@ -1,0 +1,125 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birdwatching</title>
+    <link rel="stylesheet" href=""> 
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+        }
+        html{
+            background-color: #a9a9a9;
+        }
+        body{
+            width: 95%;
+            font-family: 'Times New Roman', Times, serif;
+            margin: 0 auto;
+        }
+        header, main, footer{
+            background-color: rgb(163, 165, 30);
+            margin: 10px;
+        }
+        header{
+            padding-bottom: 8px;
+        }
+        .first{
+            display: flex;
+            flex-wrap: nowrap;
+            justify-content: center;
+            padding-bottom: 15px;
+            padding-top: 5px;
+        }
+        header img{
+            padding-top: 10px;
+            padding-right: 6px;
+            width: 60px;
+            flex: 0;
+        }
+        .topic{
+            padding-top: 20px;
+            flex: 1; 
+            text-align: center;
+        }
+        nav{
+            background-color: rgb(176, 214, 141);
+            margin: 0 15px 10px 15px;
+            display: flex;
+            padding: 15px 0;
+        }
+        nav a{
+            flex: 1;
+            text-align: center;
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+        }
+        main{
+            display: flex;
+        }
+        article{
+            flex: 4;
+            background-color: rgb(176, 214, 141);
+            margin: 15px 0px 15px 15px;
+        }
+        aside{
+            flex: 1;
+            background-color: rgb(176, 214, 141);
+            margin: 15px;
+        }
+        h2{
+            text-align: center;
+            padding: 20px;
+        }
+        aside div{
+            display: flex;
+            flex-wrap: wrap;
+            align-content: center;
+            justify-content: center;
+            padding-bottom: 10px;
+        }
+        aside img{
+            width: 80px;
+        }
+        article p{
+            padding: 0 10px;
+        }
+        footer p{
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="first">
+            <h1 class="topic">BIRDWATCHING</h1>
+            <img src="images/peace-dove.png" alt="">
+        </div>
+        <nav>
+            <a href="#">HOME</a><a href="#">GET STARTED</a><a href="#">PHOTOS</a><a href="#">GEAR</a><a href="#">FORUM</a>
+        </nav>
+    </header>
+    <main>
+        <article>
+            <h2>WELCOME</h2>
+            <p>Welcome to our fake birdwatching site. If this were a real site, it would be the ideal place to come to learn more about birdwatching, 
+                whether you are a beginner looking to learn how to get into birding, or an expert wanting to share ideas, tips, and photos with other like-minded people.
+                <br><br>So don't waste time! Get what you need, then turn off that computer and get out into the great outdoors!</p>
+        </article>
+        <aside>
+            <h2>FAVOURITE PHOTOS</h2>
+            <div>
+                <img src="images/favorite-1_th.jpg" alt="">
+                <img src="images/favorite-2_th.jpg" alt="">
+                <img src="images/favorite-3_th.jpg" alt="">
+                <img src="images/favorite-4_th.jpg" alt="">
+            </div>
+        </aside>
+    </main>
+    <footer>
+        <p>This fake website example is CCO - any part of this code may be reused in any way you wish. Original example written by <b>Chris Mills, 2016</b>.</p>
+        <p><a href="#">Dove icon </a>by Lorc.</p>
+    </footer>
+</body>
+</html>

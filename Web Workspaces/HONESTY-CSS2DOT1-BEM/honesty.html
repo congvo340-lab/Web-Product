@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Wireframe of Honesty page</title>
+  <meta charset="utf-8">
+  <meta name="author" content="Vu Duy Linh">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" href="./images/html5_favicon.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  
+  <link rel="stylesheet" href="./bem-css2dot1.css">
+</head>
+<body>
+
+  <header class="header">
+    <img class="header__img header__img--logo" src="./images/honesty-logo.png" alt="Honesty logo">
+    <div class="header-nav-form">
+      <nav class="horizontal-nav">
+        <a class="horizontal-nav__link horizontal-nav__link--active" href="#">HTML</a>
+        <a class="horizontal-nav__link" href="#">CSS2.1</a>
+        <a class="horizontal-nav__link" href="#">JavaScript</a>
+        <a class="horizontal-nav__link" href="#">ReactJS</a>
+        <a class="horizontal-nav__link horizontal-nav__link--two-words" href="#">Spring Boot</a>
+      </nav>
+      <form class="form-search">
+        <input class="form-search__input" type="text" size="15" placeholder="Search...">
+        <button class="form-search__button" type="button"><i class="fa fa-search"></i></button>
+      </form>
+    </div>
+  </header>
+
+  <main class="main">
+    <!-- Banner ảnh đổi -->
+    <div class="swap-banner">
+      <img class="swap-banner__photo1" src="./images/ux-careers-banner.jpg" alt="UX careers">
+      <img class="swap-banner__photo2" src="./images/ui-designs-banner.jpg" alt="UI designs">
+    </div>
+
+    <!-- Cột trái: Article -->
+    <article class="main__article">
+      <h1 class="main__title--primary">NHỮNG CÂU NÓI VỀ TÍNH TRUNG THỰC (sưu tầm)</h1>
+      <section class="main__section">
+        <img class="main__photo" src="./images/honest.jpg" alt="Be honest">
+        <p><b>Trung thực</b> là thành thực với người và cả với chính mình, luân tuân thủ chuẩn mực đạo đức chân thật trong từng lời nói và hành động. Cùng tìm hiểu chủ đề này qua bài viết <p class="mainred">"Những câu nói hay về trung thực".</p></p>
+
+        <ol class="list">
+          <!-- Các câu danh ngôn dạng li -->
+          <li class="list__item">Dối trá và lừa lọc là hành động của kẻ ngu xuẩn không có đủ trí óc để trung thực - <b>Benjamin Franklin</b>.</li>
+          <li class="list__item">Một cái đầu tỉnh táo, một trái tim trung thực và một linh hồn khiêm nhường, đó là ba người dẫn đường tốt nhất qua thời gian và cõi vĩnh hằng - <b>Walter Scott</b>.</li>
+          <li class="list__item">...</li>
+        </ol>
+
+        <p class="idiom">Hy vọng, qua bài viết <b>"Những phát biểu hay về trung thực"</b>, bạn đã hiểu hơn về chủ đề trung thực. Chúc bạn thành công.</p>
+      </section>
+    </article>
+
+    <!-- Cột phải: Sidebar / Aside -->
+    <div class="sidebar">
+      <h2 class="sidebar__title--secondary">IT Ethics</h2><br>
+      <p class="chon">IT Ethics have a goal and that goal is to find moral solutions to the various prroblems that arrise from online activity. The 10 Commandments of Internet Ethics:</p>
+      
+      <ul class="sidebar__list">
+        <li class="sidebar__li">The Internet must not be used to harm others.</li>
+        <li class="sidebar__li">The interference   of other Internet user’s work is prohibited.</li>
+        <li class="sidebar__li">Poking around in the personal files of another Internet user is bad.</li>
+        <li class="sidebar__li">The use of the Internet for stealing is not allowed.</li>
+        <li class="sidebar__li">The internet should not be used for deception or trickery.</li>
+        <li class="sidebar__li">Do not take credit for other’s intellectual property.</li>
+        <li class="sidebar__li">Understand the social consequences that can occur when coding or designing.</li>
+        <li class="sidebar__li">Always use the Internet in considerate ways and show respect to your fellow human.</li>
+      </ul>
+
+      <h3 class="sidebar__title--tertiary">Ethics for IT Professionals</h3>
+      <aside class="sidebar__aside">
+        <p>Book | © 2022</p>
+        <p>Codes of Ethics and Ethical Guidelines. Emerging Technologies, Changing Fields</p>
+        <p>Authors: Kelly Laas, Michael Davis, Elisabeth Hildt.</p>
+      </aside>
+      <p class="end">Read more from: 
+        <a class="sidebar__link" href="[https://en.wikibooks.org/wiki/Ethics_for_IT_Professionals/Printable_version](https://en.wikibooks.org/wiki/Ethics_for_IT_Professionals/Printable_version)">
+          Wikibooks <i class="fa fa-external-link"></i>
+        </a>
+      </p>
+    </div>
+  </main>
+
+  <footer class="page-footer">
+    Copyright &copy; vdlinh@ctu.edu.vn, 2023.
+  </footer>
+
+</body>
+</html>
